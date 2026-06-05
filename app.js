@@ -17,7 +17,7 @@ const plantsData = [
   { id: 11, name: "Miyazaki Mango", image: "image copy 11.png", origin: "Japan", type: "Premium Imported", tag: "imported", desc: "The world's most expensive mango. Ruby-red skin with exceptional sweetness and an aromatic melt-in-mouth texture." },
   { id: 12, name: "Blue Mango", image: "image copy 12.png", origin: "Thailand", type: "Exotic", tag: "exotic", desc: "Unique Thai variety with a distinct bluish-green tint when young. Matures into a very sweet dessert mango." },
   { id: 13, name: "Arzoboi", image: "image copy 13.png", origin: "Thailand", type: "Imported Variety", tag: "imported", desc: "Premium Thai mango variety prized for its unique shape and high sugar content." },
-  { id: 14, name: "Sundrop", image: "image copy 14.png", origin: "Brazil", type: "Exotic", tag: "exotic", desc: "A vibrant yellow tropical fruit with a tangy-sweet flavor profile, perfect for exotic fruit gardens." },
+  { id: 14, name: "4 Season Longan", image: "image copy 14.png", origin: "Brazil", type: "Exotic", tag: "exotic", desc: "A vibrant yellow tropical fruit with a tangy-sweet flavor profile, perfect for exotic fruit gardens." },
   { id: 15, name: "Sweet Santhol", image: "image copy 15.png", origin: "Philippines", type: "Exotic", tag: "exotic", desc: "Also known as Cotton Fruit. This sweet variety has thick skin and delicious, soft, cottony segments inside." },
   { id: 16, name: "Velvet Apple", image: "image copy 16.png", origin: "Philippines", type: "Exotic", tag: "exotic", desc: "A striking fruit with a velvety, reddish-brown skin and a rich, creamy, cheese-like white flesh." },
   { id: 17, name: "Red Longan", image: "image copy 17.png", origin: "Thailand", type: "Premium Imported", tag: "exotic", desc: "A rare and beautiful longan variety with red skin and incredibly sweet, translucent flesh." },
@@ -25,20 +25,20 @@ const plantsData = [
   { id: 19, name: "Diamond River Longan", image: "image copy 19.png", origin: "Thailand", type: "Imported Variety", tag: "imported", desc: "A top-quality longan variety noted for its consistent fruiting and thin-skinned, sweet fruits." },
   { id: 20, name: "Pink Longan", image: "image copy 20.png", origin: "Thailand", type: "Exotic", tag: "exotic", desc: "Known for the subtle pinkish hue of its pulp. Extremely sweet and juicy with a small seed." },
   { id: 21, name: "Seedless Longan", image: "image copy 21.png", origin: "Thailand", type: "Imported Variety", tag: "imported", desc: "Extraordinarily convenient longan variety with no seeds. Very sweet and perfect for fresh snacking." },
-  { id: 22, name: "Rambutan R18", image: "image copy 22.png", origin: "Malaysia", type: "Exotic", tag: "exotic", desc: "The gold standard for rambutans. Large size, easy-to-peel skin, and thick, sweet, juicy white segments." },
+  { id: 22, name: "Rambutan N18", image: "image copy 22.png", origin: "Malaysia", type: "Exotic", tag: "exotic", desc: "The gold standard for rambutans. Large size, easy-to-peel skin, and thick, sweet, juicy white segments." },
   { id: 23, name: "Seedless Guava", image: "image copy 23.png", origin: "Thailand", type: "Imported Variety", tag: "imported", desc: "Crunchy and sweet Thai guava with absolutely no seeds. High vitamin C and very refreshing." },
-  { id: 24, name: "Seedless Lemon", image: "image copy 24.png", origin: "India", type: "Best Seller", tag: "bestseller", desc: "Produces large, juicy lemons year-round with no seeds. Ideal for commercial and home plantation." },
+  { id: 24, name: "Seedless Lemon", image: "image copy 31.png", origin: "India", type: "Best Seller", tag: "bestseller", desc: "Produces large, juicy lemons year-round with no seeds. Ideal for commercial and home plantation." },
   { id: 25, name: "Miracle Fruit", image: "image copy 25.png", origin: "West Africa", type: "Exotic", tag: "exotic", desc: "Contains miraculin, which temporary makes sour foods taste sweet. A fascinating ornamental and functional plant." },
   { id: 26, name: "Lemon Variegated", image: "image copy 26.png", origin: "USA", type: "Exotic", tag: "exotic", desc: "Beautiful white-and-green striped leaves and fruits. The juice is pinkish and incredibly fragrant." },
-  { id: 27, name: "Thai Sapota Lemon", image: "image copy 27.png", origin: "Thailand", type: "Imported Variety", tag: "imported", desc: "A unique hybrid or selection that combines robust sapota growth with citrus-like adaptability." },
+  { id: 27, name: "Thai Patti Lemon", image: "image copy 27.png", origin: "Thailand", type: "Imported Variety", tag: "imported", desc: "A unique hybrid or selection that combines robust sapota growth with citrus-like adaptability." },
   { id: 28, name: "Thai Musambi (1/2 kg)", image: "image copy 28.png", origin: "Thailand", type: "Imported Variety", tag: "imported", desc: "Giant sized sweet lime. Single fruits can weigh up to half a kilogram. Very juicy and sweet." },
   { id: 29, name: "Surinam Cherry", image: "image copy 29.png", origin: "Brazil", type: "Exotic", tag: "exotic", desc: "Ribbed, pumpkin-shaped fruits that turn from red to black. Unique spicy-sweet flavor profile." },
   { id: 30, name: "Manila Cherry", image: "image copy 30.png", origin: "Philippines", type: "Exotic", tag: "exotic", desc: "Small, bright red tropical cherries with a tangy-sweet taste. High in antioxidants and vitamins." },
-  { id: 31, name: "P K Lemon", image: "image copy 31.png", origin: "India", type: "Best Seller", tag: "bestseller", desc: "A local specialty lemon known for its thin skin and exceptionally high juice content." },
+  { id: 31, name: "P K Lemon", image: "image copy 24.png", origin: "India", type: "Best Seller", tag: "bestseller", desc: "A local specialty lemon known for its thin skin and exceptionally high juice content." },
   { id: 32, name: "Blackberry", image: "image copy 32.png", origin: "USA", type: "Exotic", tag: "exotic", desc: "Produces clusters of dark, juicy, and tangy berries. Excellent for fresh eating and jams." },
   { id: 33, name: "Tropical Apricot", image: "image copy 33.png", origin: "Central America", type: "Exotic", tag: "exotic", desc: "A hardy tropical tree producing soft, apricot-colored fruits with a sweet and slightly tangy pulp." },
-  { id: 34, name: "Thornless Jujube", image: "image copy 34.png", origin: "Thailand", type: "Imported Variety", tag: "imported", desc: "Easy-to-handle jujube tree without thorns. Produces large, crunchy, apple-like sweet fruits." },
-  { id: 35, name: "Ola Sapota", image: "image copy 35.png", origin: "Thailand", type: "Imported Variety", tag: "imported", desc: "Premium Thai sapota variety noted for its smoothness and high sugar content." },
+  { id: 34, name: "Tone less Jelebe", image: "image copy 34.png", origin: "Thailand", type: "Imported Variety", tag: "imported", desc: "Easy-to-handle jujube tree without thorns. Produces large, crunchy, apple-like sweet fruits." },
+  { id: 35, name: "Ola Sopa", image: "image copy 35.png", origin: "Thailand", type: "Imported Variety", tag: "imported", desc: "Premium Thai sapota variety noted for its smoothness and high sugar content." },
   { id: 36, name: "Lipote", image: "image copy 36.png", origin: "Philippines", type: "Exotic", tag: "exotic", desc: "Clusters of small, dark purple fruits that are tart when young and sweet-to-tangy when ripe." },
   { id: 37, name: "Matova", image: "image copy 37.png", origin: "Indonesia", type: "Exotic", tag: "exotic", desc: "Also known as Pometia pinnata. The fruit has a flavor reminiscent of lychee and longan with a hint of durian." },
   { id: 38, name: "Yellow Strawberry Guava", image: "image copy 38.png", origin: "Brazil", type: "Exotic", tag: "exotic", desc: "Small, round yellow fruits with a flavor profile combining guava and strawberry. Very aromatic." },
@@ -46,15 +46,15 @@ const plantsData = [
   { id: 40, name: "Plum", image: "image copy 40.png", origin: "India", type: "Best Seller", tag: "bestseller", desc: "Hardy plum variety adapted for warmer regions. Sweet-tangy purple fruits with soft flesh." },
   { id: 41, name: "Naspati (Pear)", image: "image copy 41.png", origin: "India", type: "Best Seller", tag: "bestseller", desc: "Crunchy and sweet local pear variety that performs well in diverse soil conditions." },
   { id: 42, name: "Jaboticaba", image: "image copy 42.png", origin: "Brazil", type: "Exotic", tag: "exotic", desc: "Unique grape-like fruits that grow directly on the main trunk and branches. Truly a conversation piece." },
-  { id: 43, name: "Abu Fruit", image: "image copy 43.png", origin: "Thailand", type: "Exotic", tag: "exotic", desc: "Rare tropical fruit with a sweet, translucent pulp. Highly valued by exotic fruit collectors." },
-  { id: 44, name: "Eviarc Jack", image: "image copy 44.png", origin: "Philippines", type: "Imported Variety", tag: "imported", desc: "Premium jackfruit variety with thick, golden, extra-sweet pods and very little latex." },
+  { id: 43, name: "Abiu Fruit", image: "image copy 43.png", origin: "Thailand", type: "Exotic", tag: "exotic", desc: "Rare tropical fruit with a sweet, translucent pulp. Highly valued by exotic fruit collectors." },
+  { id: 44, name: "Everic Jack", image: "image copy 44.png", origin: "Philippines", type: "Imported Variety", tag: "imported", desc: "Premium jackfruit variety with thick, golden, extra-sweet pods and very little latex." },
   { id: 45, name: "Milk Fruit GP", image: "image copy 45.png", origin: "Vietnam", type: "Exotic", tag: "exotic", desc: "Also called Star Apple. Purple skin with white, milky, star-shaped sweet pulp inside." },
   { id: 46, name: "Red Amla", image: "image copy 46.png", origin: "India", type: "Exotic", tag: "exotic", desc: "A rare variety of Indian gooseberry with a reddish tint. High in medicinal properties and vitamin C." },
   { id: 47, name: "Thailand 10kg Jamun", image: "image copy 47.png", origin: "Thailand", type: "Imported Variety", tag: "imported", desc: "Produces extraordinarily large black plums (Jamun). Sweet, pulpy, and medicinal." },
-  { id: 48, name: "Macadamia Nut GP", image: "image copy 48.png", origin: "Australia", type: "Exotic", tag: "exotic", desc: "Produces the world's most premium nuts. Requires specific cooler climates for best performance." },
+  { id: 48, name: "Macadmia Nut Gp", image: "image copy 48.png", origin: "Australia", type: "Exotic", tag: "exotic", desc: "Produces the world's most premium nuts. Requires specific cooler climates for best performance." },
   { id: 49, name: "Hanuman Pala", image: "image copy 49.png", origin: "India", type: "Best Seller", tag: "bestseller", desc: "A large-fruited variety of Soursop relative. Sweet and aromatic with many medicinal benefits." },
   { id: 50, name: "Noni Fruit", image: "image copy 50.png", origin: "India", type: "Medicinal", tag: "exotic", desc: "Famous for its health benefits. The fruit is used in juices and traditional medicine worldwide." },
-  { id: 51, name: "Pomegranate Red", image: "image copy 51.png", origin: "India", type: "Best Seller", tag: "bestseller", desc: "Deep red arils with sweet juice. Known for its high gloss and excellent shelf life." },
+  { id: 51, name: "Pemeleo Red", image: "image copy 51.png", origin: "India", type: "Best Seller", tag: "bestseller", desc: "Deep red arils with sweet juice. Known for its high gloss and excellent shelf life." },
   { id: 52, name: "Nutmeg GP", image: "image copy 52.png", origin: "Indonesia", type: "Exotic", tag: "exotic", desc: "Dual-spice tree producing both Nutmeg and Mace. Grafted for early and consistent yield." },
   { id: 53, name: "Egg Fruit", image: "image copy 53.png", origin: "Mexico", type: "Exotic", tag: "exotic", desc: "Often called Canistel. The ripe flesh has the texture of cooked egg yolk and a sweet, cake-like flavor." },
   { id: 54, name: "Mooty", image: "image copy 54.png", origin: "Thailand", type: "Exotic", tag: "exotic", desc: "Rare Thai tropical fruit with a unique sweet-sour profile. Very ornamental tree." },
@@ -62,11 +62,11 @@ const plantsData = [
   { id: 56, name: "Red Sapota", image: "image copy 56.png", origin: "Thailand", type: "Exotic", tag: "exotic", desc: "Beautiful reddish-brown skin with a deep orange, extra sweet flesh. Very high yielding." },
   { id: 57, name: "Avocado GP", image: "image copy 57.png", origin: "Mexico", type: "Imported Variety", tag: "imported", desc: "The gold standard for avocados. Creamy texture with high oil content and excellent nutty flavor." },
   { id: 58, name: "Strawberry Red Guava", image: "image copy 58.png", origin: "Brazil", type: "Exotic", tag: "exotic", desc: "Small red fruits with a combined flavor of strawberry and guava. Highly aromatic." },
-  { id: 59, name: "Apple Ber Red", image: "image copy 59.png", origin: "Taiwan", type: "Best Seller", tag: "bestseller", desc: "Large-sized jujube (Ber) that looks like a small red apple. Very crunchy and sweet." },
+  { id: 59, name: "Apple Ber Red", image: "image copy 124.png", origin: "Taiwan", type: "Best Seller", tag: "bestseller", desc: "Large-sized jujube (Ber) that looks like a small red apple. Very crunchy and sweet." },
   { id: 60, name: "Gumless Jack", image: "image copy 60.png", origin: "India", type: "Best Seller", tag: "bestseller", desc: "Unique jackfruit variety with very little to no latex (gum) inside. Easy to cut and very sweet." },
-  { id: 61, name: "Pink Jack", image: "image copy 61.png", origin: "India", type: "Exotic", tag: "exotic", desc: "Rare jackfruit variety with beautiful pinkish-red pods. Exceptionally sweet and aromatic." },
+  { id: 61, name: "Pink Jack", image: "image copy 106.png", origin: "India", type: "Exotic", tag: "exotic", desc: "Rare jackfruit variety with beautiful pinkish-red pods. Exceptionally sweet and aromatic." },
   { id: 62, name: "Peanut Butter Fruit", image: "image copy 62.png", origin: "South America", type: "Exotic", tag: "exotic", desc: "Small orange-red fruits that taste remarkably like peanut butter. Fascinating for kids and collectors." },
-  { id: 63, name: "Luv Luv Cherry", image: "image copy 63.png", origin: "Thailand", type: "Exotic", tag: "exotic", desc: "Clusters of heart-shaped dark red berries. Very sweet with a subtle tang, highly decorative." },
+  { id: 63, name: "Luvi Luvi Cherry", image: "image copy 63.png", origin: "Thailand", type: "Exotic", tag: "exotic", desc: "Clusters of heart-shaped dark red berries. Very sweet with a subtle tang, highly decorative." },
   { id: 64, name: "N8 Thai Guava", image: "image copy 64.png", origin: "Thailand", type: "Imported Variety", tag: "imported", desc: "Premium Thai guava with a super-crunchy texture, few seeds, and high commercial value." },
   { id: 65, name: "Sweet Wood Apple", image: "image copy 65.png", origin: "India", type: "Best Seller", tag: "bestseller", desc: "Unlike the regular sour variety, this wood apple is naturally sweet when ripe. Highly nutritious." },
   { id: 66, name: "Keepal", image: "image copy 66.png", origin: "Thailand", type: "Exotic", tag: "exotic", desc: "Rare tropical fruit with a unique leathery skin and sweet pulp. Very slow-growing and prized." },
@@ -76,21 +76,21 @@ const plantsData = [
   { id: 70, name: "Persimmon", image: "image copy 70.png", origin: "Japan", type: "Imported Variety", tag: "imported", desc: "Beautiful orange fruit that looks like a tomato. Sweet, honey-like flavor with a soft texture." },
   { id: 71, name: "Sweet Star Fruit", image: "image copy 71.png", origin: "Thailand", type: "Imported Variety", tag: "imported", desc: "Beautiful star-shaped cross-sections when sliced. This sweet variety is juicy and refreshing." },
   { id: 72, name: "Thai Water Apple", image: "image copy 72.png", origin: "Thailand", type: "Imported Variety", tag: "imported", desc: "Bell-shaped, waxy red fruits that are incredibly juicy and crunchy. High water content." },
-  { id: 73, name: "Loquat", image: "image copy 73.png", origin: "China", type: "Exotic", tag: "exotic", desc: "Clusters of yellow-orange fruits with a tangy-sweet flavor similar to apricot and peach." },
-  { id: 74, name: "Rampal (New)", image: "image copy 74.png", origin: "India", type: "Best Seller", tag: "bestseller", desc: "A premium variety of Bullock's Heart. Reddish skin with very sweet, creamy white pulp." },
+  { id: 73, name: "Loquite", image: "image copy 73.png", origin: "China", type: "Exotic", tag: "exotic", desc: "Clusters of yellow-orange fruits with a tangy-sweet flavor similar to apricot and peach." },
+  { id: 74, name: "Rampal Red", image: "image copy 74.png", origin: "India", type: "Best Seller", tag: "bestseller", desc: "A premium variety of Bullock's Heart. Reddish skin with very sweet, creamy white pulp." },
   { id: 75, name: "Annona Pink", image: "image copy 75.png", origin: "Thailand", type: "Imported Variety", tag: "imported", desc: "Stunning pink-skinned custard apple relative. Minimal seeds and extra-sweet creamy flesh." },
   { id: 76, name: "Mulberry Red", image: "image copy 76.png", origin: "India", type: "Best Seller", tag: "bestseller", desc: "Consistent producer of sweet, dark red mulberries. Fruits heavily throughout the year." },
   { id: 77, name: "Mulberry Green", image: "image copy 77.png", origin: "India", type: "Exotic", tag: "exotic", desc: "Rare mulberry variety that stays greenish-white even when ripe. Primarily sweet with no acidity." },
-  { id: 78, name: "All Spices", image: "image copy 78.png", origin: "Jamaica", type: "Exotic", tag: "exotic", desc: "Single source for the flavor of cloves, cinnamon, and nutmeg combined. Highly versatile spice leaf." },
+  { id: 78, name: "All Spicies", image: "image copy 78.png", origin: "Jamaica", type: "Exotic", tag: "exotic", desc: "Single source for the flavor of cloves, cinnamon, and nutmeg combined. Highly versatile spice leaf." },
   { id: 79, name: "Sweet Orange", image: "image copy 79.png", origin: "India", type: "Best Seller", tag: "bestseller", desc: "Classic sweet orange/musambi. Highly juice-yielding and essential for summer hydration." },
   { id: 80, name: "J33 Jack", image: "image copy 80.png", origin: "Malaysia", type: "Imported Variety", tag: "imported", desc: "Commercial Malaysian jackfruit. Famous for its bright yellow, very sweet, and crunchy pods." },
   { id: 81, name: "Baraba GP", image: "image copy 81.png", origin: "Amazon", type: "Exotic", tag: "exotic", desc: "Unique Amazonian fruit with a citrusy-creamy flavor profile. Very rare in Indian nurseries." },
   { id: 82, name: "Sweet Waka", image: "image copy 82.png", origin: "Thailand", type: "Exotic", tag: "exotic", desc: "Small, sweet tropical fruits produced on a hardy evergreen tree. A collector's favorite." },
   { id: 83, name: "Red Seedless Guava", image: "image copy 83.png", origin: "Thailand", type: "Imported Variety", tag: "imported", desc: "Beautiful pinkish-red interior with no seeds. Sweet, aromatic, and rich in lycopene." },
   { id: 84, name: "Kothapalli Kobbari", image: "image copy 84.png", origin: "India", type: "Best Seller", tag: "bestseller", desc: "Highly popular Indian mango variety from AP. Famous for its coconut-like texture and sweetness." },
-  { id: 85, name: "Ice Cream Bean", image: "image copy 85.png", origin: "Amazon", type: "Exotic", tag: "exotic", desc: "Long pods containing white, cottony pulp that tastes exactly like vanilla ice cream." },
-  { id: 86, name: "Fusion GP", image: "image copy 86.png", origin: "Thailand", type: "Exotic", tag: "exotic", desc: "A unique hybrid variety combining the best traits of different tropical fruits." },
-  { id: 87, name: "Rose Apple", image: "image copy 87.png", origin: "India", type: "Best Seller", tag: "bestseller", desc: "Refreshing, bell-shaped fruits with a crisp, juicy texture and a subtle rose-like aroma." },
+  { id: 85, name: "Panduri", image: "image copy 85.png", origin: "Amazon", type: "Exotic", tag: "exotic", desc: "Long pods containing white, cottony pulp that tastes exactly like vanilla ice cream." },
+  { id: 86, name: "Pulsion GP", image: "image copy 86.png", origin: "Thailand", type: "Exotic", tag: "exotic", desc: "A unique hybrid variety combining the best traits of different tropical fruits." },
+  { id: 87, name: "Rose Apple", image: "image copy 105.png", origin: "India", type: "Best Seller", tag: "bestseller", desc: "Refreshing, bell-shaped fruits with a crisp, juicy texture and a subtle rose-like aroma." },
   { id: 88, name: "Passion Fruit", image: "image copy 88.png", origin: "Brazil", type: "Exotic", tag: "exotic", desc: "Vigorous climber producing aromatic, tangy-sweet fruits perfect for juices and fresh consumption." },
   { id: 89, name: "Red Jack", image: "image copy 89.png", origin: "Thailand", type: "Premium Imported", tag: "imported", desc: "Top-tier jackfruit with deep orangey-red pods. Extraordinary sweetness and fragrance." },
   { id: 90, name: "VNR Guava", image: "image copy 90.png", origin: "India", type: "Best Seller", tag: "bestseller", desc: "Produces massive-sized guavas with high pulp and low seed count. Crispy and sweet." },
@@ -100,11 +100,28 @@ const plantsData = [
   { id: 94, name: "Litchi", image: "image copy 94.png", origin: "India", type: "Best Seller", tag: "bestseller", desc: "Famous Indian variety. Large, pulpy, and extraordinarily sweet with a characteristic aroma." },
   { id: 95, name: "Finger Lemon", image: "image copy 95.png", origin: "Australia", type: "Exotic", tag: "exotic", desc: "Also called Caviar Lime. Contains juice vesicles that look like citrus pearls with a burst of flavor." },
   { id: 96, name: "Gac Fruit", image: "image copy 96.png", origin: "Vietnam", type: "Exotic", tag: "exotic", desc: "Beautiful spiny orange fruit with deep red interior. Extremely high in beta-carotene and lycopene." },
-  { id: 97, name: "Thai Custard Apple", image: "image copy 97.png", origin: "Thailand", type: "Imported Variety", tag: "imported", desc: "Large fruit size with minimal seeds and extra-sweet, creamy white pulp." },
+  { id: 97, name: "Thai Custed Apple", image: "image copy 97.png", origin: "Thailand", type: "Imported Variety", tag: "imported", desc: "Large fruit size with minimal seeds and extra-sweet, creamy white pulp." },
   { id: 100, name: "Sweet Tamarind", image: "image copy 100.png", origin: "Thailand", type: "Imported Variety", tag: "imported", desc: "Unlike local varieties, this Thai tamarind is primarily sweet with a very subtle tang." },
   { id: 101, name: "Durian", image: "image copy 101.png", origin: "Thailand", type: "Premium Imported", tag: "exotic", desc: "The 'King of Fruits'. Known for its intense aroma and rich, custard-like creamy flesh." },
   { id: 102, name: "Mangosteen (Premium)", image: "image copy 102.png", origin: "Thailand", type: "Premium Imported", tag: "exotic", desc: "The gold standard of mangosteens. Large size and perfectly balanced sweet-tangy segments." },
-  { id: 103, name: "Acai Berry", image: "image copy 103.png", origin: "Brazil", type: "Exotic", tag: "exotic", desc: "The world-famous superfood. A beautiful palm tree producing dark purple clusters of antioxidant-rich berries." },
+  { id: 103, name: "Akai Berry", image: "image copy 103.png", origin: "Brazil", type: "Exotic", tag: "exotic", desc: "The world-famous superfood. A beautiful palm tree producing dark purple clusters of antioxidant-rich berries." },
+  { id: 104, name: "Thai King Jamun", image: "image copy 107.png", origin: "Thailand", type: "Imported Variety", tag: "imported", desc: "Premium Thai Jamun variety known for its exceptionally large size and rich, sweet-tangy flavor. High yielding and vigorous grower." },
+  { id: 105, name: "Laxman Phalam", image: "image copy 108.png", origin: "India", type: "Exotic", tag: "exotic", desc: "A rare tropical fruit with sweet, creamy white pulp and numerous health benefits. Also known as Bullock's Heart." },
+  { id: 106, name: "Bari Mosambi", image: "image copy 109.png", origin: "India", type: "Best Seller", tag: "bestseller", desc: "Large-sized sweet lime variety with high juice content. Extremely refreshing and commercially popular." },
+  { id: 107, name: "Yellow Mosambi", image: "image copy 110.png", origin: "India", type: "Best Seller", tag: "bestseller", desc: "A premium yellow sweet lime with a bright golden hue when ripe. Juicy, sweet, and aromatic." },
+  { id: 108, name: "Dragon Fruit", image: "image copy 111.png", origin: "Vietnam", type: "Exotic", tag: "exotic", desc: "Stunning cactus fruit with vibrant pink skin and speckled white or red flesh. Rich in antioxidants and vitamins." },
+  { id: 109, name: "Bread Fruit", image: "image copy 112.png", origin: "Pacific Islands", type: "Exotic", tag: "exotic", desc: "Large tropical fruit with starchy flesh that tastes like freshly baked bread when cooked. Highly nutritious staple." },
+  { id: 110, name: "Kiwi", image: "image copy 113.png", origin: "New Zealand", type: "Imported Variety", tag: "imported", desc: "Fuzzy brown skin with bright green, tangy-sweet flesh dotted with tiny black seeds. Packed with vitamin C." },
+  { id: 111, name: "Bhagava Pomegranate", image: "image copy 114.png", origin: "India", type: "Best Seller", tag: "bestseller", desc: "India's most popular pomegranate variety with large, ruby-red arils. Exceptionally sweet with soft seeds." },
+  { id: 112, name: "Kaju", image: "image copy 115.png", origin: "India", type: "Best Seller", tag: "bestseller", desc: "Cashew nut tree producing both the famous nut and a juicy cashew apple. Dual-purpose commercial crop." },
+  { id: 113, name: "Olive", image: "image copy 116.png", origin: "Mediterranean", type: "Imported Variety", tag: "imported", desc: "Classic Mediterranean tree producing nutritious olives rich in healthy fats. Hardy and long-lived." },
+  { id: 114, name: "Mami Sapota", image: "image copy 117.png", origin: "Central America", type: "Exotic", tag: "exotic", desc: "Also known as Mamey Sapote. Large tropical fruit with salmon-pink flesh that tastes like sweet potato and almond." },
+  { id: 115, name: "Ice Cream Bean", image: "image copy 118.png", origin: "South America", type: "Exotic", tag: "exotic", desc: "Long pods containing white, fluffy pulp that tastes remarkably like vanilla ice cream. Fast-growing tropical tree." },
+  { id: 116, name: "Black Guava", image: "image copy 119.png", origin: "Brazil", type: "Exotic", tag: "exotic", desc: "Rare guava variety with dark purple-black skin and deep pink flesh. Intensely aromatic and antioxidant-rich." },
+  { id: 117, name: "Chilli Mango", image: "image copy 120.png", origin: "Thailand", type: "Imported Variety", tag: "imported", desc: "Unique mango variety with a spicy kick. Perfect for pickling and raw consumption with a bold flavor profile." },
+  { id: 118, name: "Nam Doc Mai Purple", image: "image copy 121.png", origin: "Thailand", type: "Premium Imported", tag: "imported", desc: "A rare purple-skinned variant of the famous Thai Nam Doc Mai mango. Exceptionally sweet and fiberless." },
+  { id: 119, name: "Japanese Red Guava", image: "image copy 122.png", origin: "Japan", type: "Premium Imported", tag: "imported", desc: "Premium Japanese guava with beautiful red flesh and an exquisite sweet-tangy flavor. Highly aromatic and ornamental." },
+  { id: 120, name: "Variegated Mango", image: "image copy 123.png", origin: "Thailand", type: "Exotic", tag: "exotic", desc: "Stunning ornamental mango with striking variegated green-and-white leaves. Produces sweet, aromatic fruits." },
 ];
 
 // Note: Removed IDs 98 and 99 if they were missing from the user's specific list provided, 
@@ -208,9 +225,10 @@ function renderFruitScroll() {
   const scrollPlants = plantsData.slice(0, 20);
   const allItems = [...scrollPlants, ...scrollPlants]; // duplicate for seamless loop
 
-  track.innerHTML = allItems.map(plant => `
+  track.innerHTML = allItems.map((plant, index) => `
     <div class="fruit-scroll-item">
-      <img class="fruit-scroll-img" src="${plant.image}" alt="${plant.name}" loading="lazy">
+      <img class="fruit-scroll-img" src="${plant.image}" alt="${plant.name}" 
+           ${index < 6 ? 'fetchpriority="high"' : ''}>
       <span class="fruit-scroll-name">${plant.name}</span>
     </div>
   `).join('');
@@ -223,6 +241,8 @@ function renderPlantsGrid(plants) {
   const grid = document.getElementById('plantsGrid');
   grid.innerHTML = plants.map((plant, index) => {
     const tag = tagLabels[plant.tag];
+    // Remove loading="lazy" for the first 8 items for "instant" appearance
+    const isPriority = index < 8;
     return `
       <div class="plant-card fade-in" data-tag="${plant.tag}" 
            onclick="openPlantModal(${plant.id})" 
@@ -230,7 +250,9 @@ function renderPlantsGrid(plants) {
            id="plant-card-${plant.id}">
         <div class="plant-card-image">
           ${tag ? `<span class="plant-tag ${tag.class}">${tag.text}</span>` : ''}
-          <img src="${plant.image}" alt="${plant.name}" loading="lazy">
+          <img src="${plant.image}" alt="${plant.name}" 
+               ${isPriority ? 'fetchpriority="high"' : 'loading="lazy"'}
+          >
         </div>
         <div class="plant-card-body">
           <h3 class="plant-card-name">${plant.name}</h3>
