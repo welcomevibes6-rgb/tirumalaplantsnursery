@@ -8,6 +8,8 @@
   <meta name="keywords" content="nursery, fruit plants, imported plants, Thailand mango, exotic plants, Burrilanka, Andhra Pradesh, Tirumala Nursery">
   <link rel="stylesheet" href="index.css">
   <link rel="icon" type="image/png" href="image copy 104.png">
+  <link rel="preload" as="image" href="assets/hero-bg.png">
+  <link rel="preload" as="image" href="image copy 104.png">
 </head>
 <body>
 
@@ -15,7 +17,7 @@
   <nav class="navbar" id="navbar">
     <div class="container">
       <a href="#home" class="navbar-brand" id="nav-brand">
-        <img src="image copy 104.png" alt="Tirumala Nursery Logo">
+        <img src="image copy 104.png" alt="Tirumala Nursery Logo" fetchpriority="high">
         <span>Tirumala Nursery</span>
       </a>
       <ul class="nav-links" id="navLinks">
@@ -36,11 +38,11 @@
   <!-- ═══ HERO ═══ -->
   <section class="hero" id="home">
     <div class="hero-bg">
-      <img src="assets/hero-bg.png" alt="Tirumala Nursery">
+      <img src="assets/hero-bg.png" alt="Tirumala Nursery" fetchpriority="high">
     </div>
     <div class="hero-overlay"></div>
     <div class="hero-content">
-      <img src="image copy 104.png" alt="Tirumala Nursery" class="hero-logo">
+      <img src="image copy 104.png" alt="Tirumala Nursery" class="hero-logo" fetchpriority="high">
       <p class="hero-subtitle">Est. Burrilanka, Andhra Pradesh</p>
       <h1 class="hero-title">Premium Quality<br>Nursery Plants</h1>
       <p class="hero-desc">Specializing in 103+ exotic fruit plant varieties — imported from Thailand, Japan, Brazil & beyond</p>
